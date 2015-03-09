@@ -28,8 +28,9 @@ To run:
 * ruby test_gen.rb
 
 Sample output:
-
+```
   For input input_1 - found 27 combinations - after applying restrictions: 23
   For input input_2 - found 81 combinations - after applying restrictions: 60
   Found 1380 tests
+```
 	
