@@ -1,0 +1,42 @@
+{
+	"input_1": {
+		"descriptions":{
+			"key_11": ["val_111", "val_112", "val_113"],
+			"key_12": ["val_121", "val_122", "val_123"],
+			"key_13": ["val_131", "val_132", "val_133"]
+		},
+		"restrictions": {
+			"res_11": [
+				{"input_1": {"key_11": "val_111"}},
+				{"input_1": {"key_12": "val_122"}} 
+			],
+			"res_12": [
+				{"input_1": {"key_11": "val_111"}},
+				{"input_1": {"key_12": "val_123"}},
+				{"input_1": {"key_13": "val_133"}}
+			]
+		}
+	},
+	"input_2": {
+		"descriptions":{
+			"key_21": ["val_211", "val_212", "val_213"],
+			"key_22": ["val_221", "val_222", "val_223"],
+			"key_23": ["val_231", "val_232", "val_233"],
+			"key_24": ["val_241", "val_242", "val_243"]
+		},
+		"restrictions": {
+			"res_21": [
+				{"input_2": {"key_21": "val_211"}},
+				{"input_2": {"key_22": "val_222"}} 
+			],
+			"res_22": [
+				{"input_2": {"key_21": "val_211"}},
+				{"input_2": {"key_22": "val_223"}}
+			],
+			"res_23": [
+				{"input_2": {"key_21": "val_211"}},
+				{"input_2": {"key_24": "val_243"}}
+			]
+		}
+	}
+}
